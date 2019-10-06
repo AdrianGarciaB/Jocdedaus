@@ -26,7 +26,6 @@ public class Dau1 {
             arrlist.add(dado1 + dado2);
         }
         for (int i = 2; i <= 12; i++) {
-
             System.out.println("El numero " + i + " ha salido: "+Collections.frequency(arrlist, i) + " veces.");
         }
     }
